@@ -4,16 +4,38 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-	*{ 
-         margin: 0;
-         padding: 0;
-	}
+		*{ 
+	         margin: 0;
+	         padding: 0;
+		}
+        #msg{
+        	width: 200px;
+        	height: 200px;
+        	position: fixed;
+        	right: 30px;
+        	bottom: -200px;
+        	background-color: #000;
+        }
+        #msg>a{
+        	float: right;
+        	padding: 5px 10px;
+        	border: 1px solid #fff;
+        	cursor: pointer;
+        }
 
 	</style>
 </head>
 <body>
-	<div>
-		<a href=""></a>
+	<div id="msg">
+		<a href="">X</a>
 	</div>
+	<script type="text/javascript">
+		var adv = {
+            DISTACE:0
+		}
+		window.onload = function(){
+
+		}
+	</script>
 </body>
 </html>
